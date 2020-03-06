@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404C51;
+}
+
+a {
+  color: #337ab7;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+label {
+  font-weight: bold;
+}
+
+@media(min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.col-valor {
+  width: 120px;
+}
+
+.col-data {
+  width: 120px;
+}
+
+.col-data-centro {
+  text-align: center;
+}
+
+.col-valor-centro {
+  text-align: right;
+}
+
+.col-botao {
+ width: 110px;
+}
+
+.col-botao-margin {
+  margin-left: 30px;
+}
